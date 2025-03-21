@@ -1,0 +1,16 @@
+# Netlify configuration file
+# This file connects your forked project to the existing Netlify deployment
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Uncomment and set this to your existing Netlify site ID
+# [Settings] > [Site settings] > [Site information] > [Site ID]
+# site_id = "your-netlify-site-id"
+
+# Redirect all paths to index.html for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

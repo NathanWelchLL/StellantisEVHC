@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'PSA Groupe HMI Sans';
+    src: url('https://db.onlinewebfonts.com/t/d28fcc8c1fd0c9cdc3fdf1782ab47e69.woff2') format('woff2'),
+         url('https://db.onlinewebfonts.com/t/d28fcc8c1fd0c9cdc3fdf1782ab47e69.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+}
